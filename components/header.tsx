@@ -86,6 +86,7 @@ export function Header() {
           <Link href="/products" onClick={() => setMenuOpen(false)}>Products <Layers className={c.classes.icon} /></Link>
           <Link href="/about" onClick={() => setMenuOpen(false)}>About <Network className={c.classes.icon} /></Link>
           <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact <Shield className={c.classes.icon} /></Link>
+          <Link data-cta href="/contact" transitionTypes={["nav-forward"]} onClick={() => setMenuOpen(false)}>Start a project</Link>
         </nav>
       </div>
     </header>
