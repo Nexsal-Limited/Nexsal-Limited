@@ -125,6 +125,7 @@ export const componentStyles = new Estyle()
       minHeight: 52,
       display: "inline-flex",
       alignItems: "center",
+      justifyContent: "center",
       gap: 10,
       padding: "0 18px",
       border: "1px solid rgba(255,255,255,.18)",
