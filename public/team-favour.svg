@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="760" viewBox="0 0 640 760" role="img" aria-labelledby="title desc">
+  <title id="title">Favour Macurley placeholder portrait</title>
+  <desc id="desc">Abstract light green and dark green founder portrait placeholder with the initials FM.</desc>
+  <rect width="640" height="760" fill="#e8eee3"/>
+  <circle cx="120" cy="120" r="250" fill="#b7f22c" opacity=".55"/>
+  <path d="m640 520-640 80v160h640Z" fill="#b7f22c" opacity=".5"/>
+  <circle cx="320" cy="265" r="112" fill="#14261f"/>
+  <path d="M125 760c18-195 83-295 195-295s177 100 195 295Z" fill="#1c362b"/>
+  <circle cx="320" cy="265" r="82" fill="#466056" opacity=".5"/>
+  <text x="50" y="690" fill="#13201b" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-2">FM</text>
+  <path d="M48 714h96" stroke="#13201b" stroke-width="6"/>
+</svg>

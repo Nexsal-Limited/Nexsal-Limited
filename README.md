@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NexSal website
+
+NexSal's public website, contact system, and private inquiry inbox.
 
 ## Getting Started
 
@@ -15,6 +17,20 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Admin inbox
+
+Copy `.env.example` to `.env.local` and replace every value before running the site. `AUTH_SECRET` must contain at least 32 random characters.
+
+The login route is intentionally unlisted in public navigation:
+
+```text
+/admin/login
+```
+
+Successful authentication grants access to `/admin/inbox` through an HTTP-only, signed, eight-hour session cookie. Contact submissions are stored in `.data/inbox.json`, which is private and ignored by Git.
+
+The filesystem inbox is suitable for a persistent Node server. Serverless platforms such as Vercel do not provide durable writable filesystems; replace `utilities/server/inbox.ts` with a managed database adapter before deploying there.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

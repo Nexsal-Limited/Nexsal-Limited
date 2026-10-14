@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="760" viewBox="0 0 640 760" role="img" aria-labelledby="title desc">
+  <title id="title">Elkanah Cole placeholder portrait</title>
+  <desc id="desc">Abstract dark green and lime founder portrait placeholder with the initials EC.</desc>
+  <rect width="640" height="760" fill="#14261f"/>
+  <circle cx="520" cy="105" r="230" fill="#b7f22c" opacity=".16"/>
+  <path d="M0 590 640 340v420H0Z" fill="#1c362b"/>
+  <circle cx="320" cy="265" r="112" fill="#dce8df"/>
+  <path d="M132 760c15-192 77-295 188-295s173 103 188 295Z" fill="#b7f22c"/>
+  <circle cx="320" cy="265" r="83" fill="#9eb0a7" opacity=".3"/>
+  <text x="50" y="690" fill="#f5f8f1" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-2">EC</text>
+  <path d="M48 714h88" stroke="#b7f22c" stroke-width="6"/>
+</svg>
